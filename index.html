@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Sitio estático con TailwindCSS</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-gray-50 text-gray-800">
+    <nav class="bg-white shadow">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex justify-between h-16 items-center">
+          <div class="flex items-center">
+            <a href="#" class="text-xl font-bold text-indigo-600">Mi Sitio</a>
+          </div>
+          <div class="hidden md:flex space-x-6">
+            <a href="#" class="text-gray-600 hover:text-indigo-600">Inicio</a>
+            <a href="#" class="text-gray-600 hover:text-indigo-600">Características</a>
+            <a href="#" class="text-gray-600 hover:text-indigo-600">Contacto</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <header class="bg-indigo-600 text-white">
+      <div class="max-w-7xl mx-auto py-20 px-4 text-center">
+        <h1 class="text-4xl font-extrabold">Bienvenido a mi sitio</h1>
+        <p class="mt-4 text-lg max-w-2xl mx-auto">Ejemplo de sitio estático usando Tailwind CSS vía CDN.</p>
+        <a href="#" class="mt-8 inline-block bg-white text-indigo-600 font-semibold px-6 py-3 rounded-lg shadow hover:bg-gray-100">Comenzar</a>
+      </div>
+    </header>
+
+    <main class="max-w-7xl mx-auto p-6 grid gap-6 grid-cols-1 md:grid-cols-3">
+      <section class="bg-white p-6 rounded-lg shadow">
+        <h2 class="text-xl font-semibold">Card 1</h2>
+        <p class="mt-2 text-gray-600">Contenido de ejemplo para la tarjeta uno.</p>
+        <button class="mt-4 bg-indigo-600 text-white px-4 py-2 rounded">Acción</button>
+      </section>
+
+      <section class="bg-white p-6 rounded-lg shadow">
+        <h2 class="text-xl font-semibold">Card 2</h2>
+        <p class="mt-2 text-gray-600">Contenido de ejemplo para la tarjeta dos.</p>
+        <button class="mt-4 bg-indigo-600 text-white px-4 py-2 rounded">Acción</button>
+      </section>
+
+      <section class="bg-white p-6 rounded-lg shadow">
+        <h2 class="text-xl font-semibold">Card 3</h2>
+        <p class="mt-2 text-gray-600">Contenido de ejemplo para la tarjeta tres.</p>
+        <button class="mt-4 bg-indigo-600 text-white px-4 py-2 rounded">Acción</button>
+      </section>
+    </main>
+
+    <footer class="bg-gray-800 text-white p-6 text-center">
+      <p>© 2026 Mi Sitio. Hecho con TailwindCSS.</p>
+    </footer>
+  </body>
+</html>
